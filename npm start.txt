@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\balap>cd quantum-ai-copilot
+
+C:\Users\balap\quantum-ai-copilot>npm install
+npm warn deprecated multer@1.4.5-lts.2: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
+
+added 5 packages, removed 23 packages, changed 4 packages, and audited 89 packages in 5s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\balap\quantum-ai-copilot>npm fund
+quantum-ai-copilot@1.0.0
+`-- https://opencollective.com/express
+  | `-- express@4.21.2
+  +-- https://github.com/sponsors/sindresorhus
+  |   `-- merge-descriptors@1.0.3
+  +-- https://github.com/sponsors/ljharb
+  |   `-- qs@6.13.0, side-channel@1.1.0, object-inspect@1.13.4, side-channel-list@1.0.0, side-channel-map@1.0.1, call-bound@1.0.4, function-bind@1.1.2, get-intrinsic@1.3.0, gopd@1.2.0, has-symbols@1.1.0, side-channel-weakmap@1.0.2, minimist@1.2.8
+  `-- https://github.com/sponsors/feross
+      `-- safe-buffer@5.2.1
+
+
+C:\Users\balap\quantum-ai-copilot>node server.js
+node:internal/modules/cjs/loader:1368
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\balap\quantum-ai-copilot\server.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.18.0
+
+C:\Users\balap\quantum-ai-copilot>pip install -r requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pandas>=1.5.0 in c:\users\balap\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: numpy>=1.22.0 in c:\users\balap\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 2)) (2.3.2)
+Requirement already satisfied: scipy>=1.9.0 in c:\users\balap\appdata\roaming\python\python313\site-packages (from -r requirements.txt (line 3)) (1.16.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\balap\appdata\roaming\python\python313\site-packages (from pandas>=1.5.0->-r requirements.txt (line 1)) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\balap\appdata\roaming\python\python313\site-packages (from pandas>=1.5.0->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\balap\appdata\roaming\python\python313\site-packages (from pandas>=1.5.0->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: six>=1.5 in c:\users\balap\appdata\roaming\python\python313\site-packages (from python-dateutil>=2.8.2->pandas>=1.5.0->-r requirements.txt (line 1)) (1.17.0)
+
+C:\Users\balap\quantum-ai-copilot>npm start
+
+> quantum-ai-copilot@1.0.0 start
+> node server.js
+
+node:internal/modules/cjs/loader:1368
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\balap\quantum-ai-copilot\server.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.18.0
+
+C:\Users\balap\quantum-ai-copilot>npm start
+
+> quantum-ai-copilot@1.0.0 start
+> node server.js
+
+Server running at http://localhost:3000
+Uploaded CSV: C:\Users\balap\quantum-ai-copilot\uploads\85836ad219b7641fe308a7d6bc4f1199
+Uploaded CSV: C:\Users\balap\quantum-ai-copilot\uploads\a391f343f0008ad207dec0aed9042409
+Uploaded CSV: C:\Users\balap\quantum-ai-copilot\uploads\37e6c3a8c15d8412f8d3749b1379e8d9
